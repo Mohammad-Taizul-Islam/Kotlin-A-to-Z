@@ -17,11 +17,13 @@ fun main()
 
 }
 
+//with default parameters
 fun add(a:Int,b:Int,c:Int=0,d:Int=0):Int
 {
     return a+b+c+d
 }
 
+//with default parameters
 fun add2(a:Int=1,b:Int=1):Int{
     return a+b
 }
